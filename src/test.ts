@@ -1,3 +1,3 @@
-let args: string[] = process.argv.slice(2);
+const MESSAGE: string = 'Hello, World!';
 
-args.forEach(arg => console.log(arg));
+console.log(MESSAGE);
