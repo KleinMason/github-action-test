@@ -1,5 +1,5 @@
 export class TestClass {
-    get prompt(): string { return "Hello World!" }
+    get prompt(): string { return "Helo World!" }
 
     printPrompt = (): Promise<void> => {
         console.log(this.prompt);
