@@ -9,15 +9,6 @@ describe('TestClass', () => {
 
   var sandbox: sinon.SinonSandbox;
 
-//   beforeEach(() => {
-//     sandbox = sinon.createSandbox();
-//     sandbox.stub(console, 'log');
-//   });
-
-//   afterEach(() => {
-//     sandbox.restore();
-//   });
-
   it('prompt should equal "Hello World!"', (done) => {
     let subject = new TestClass();
     expect(subject.prompt).to.equal("Hello World!");
@@ -28,4 +19,5 @@ describe('TestClass', () => {
     let subject = new TestClass();
     subject.printPrompt().then(_ => done());
   });
+  
 });
