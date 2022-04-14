@@ -18,7 +18,7 @@ export class Cart implements ICart {
 
     addItem = (item: IItem): Promise<void> => {
         this.items.push(item);
-        console.log(`Added ${item.quantity} ${item.name}s to cart.`);
+        console.log(`Added ${item.quantity} ${item.name}s to cart.\n`);
         return Promise.resolve();
     }
 }
