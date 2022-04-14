@@ -7,7 +7,7 @@
     "test": "nyc mocha",
     "build": "tsc",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "debug": "tsc && node dist/test.js"
+    "debug": "tsc && node dist/index.js"
   },
   "author": "",
   "license": "ISC",
