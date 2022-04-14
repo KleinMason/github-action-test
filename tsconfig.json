@@ -1,15 +1,24 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "es6",
+    "lib": ["es2020"],
     "module": "commonjs",
-    "forceConsistentCasingInFileNames": true,
     "strict": false,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "declaration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
   },
   "include": [
     "src/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "src/**/*spec.ts"
   ]
 }

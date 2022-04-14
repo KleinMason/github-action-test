@@ -1,0 +1,7 @@
+{
+    "require" : [
+      "./.tsnode",
+      "mocha-suppress-logs"
+    ],
+    "spec": "src/**/*.spec.ts"
+  }
